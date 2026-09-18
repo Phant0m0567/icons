@@ -28,6 +28,7 @@
   line-height: 1;
   font-size: 1em;
   color: inherit;
+  margin-inline: 0.12em;
   background-color: currentColor;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
@@ -40,6 +41,9 @@
 .yt-icon-lg  { --yt-icon-size: 1.5em; }
 .yt-icon-xl  { --yt-icon-size: 2em; }
 .yt-icon-2xl { --yt-icon-size: 2.5em; }
+
+/* Use when the icon is intentionally packed tightly against another element. */
+.yt-icon-tight { margin-inline: 0; }
 
 /* All icons below use the exact upstream SVG as the artwork source. */
 
