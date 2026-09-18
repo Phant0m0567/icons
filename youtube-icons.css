@@ -27,14 +27,11 @@
   vertical-align: -0.125em;
   line-height: 1;
   font-size: 1em;
+  color: inherit;
   margin-inline: 0.12em;
-  background-color: currentColor;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-size: contain;
-  mask-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .yt-icon-lg  { --yt-icon-size: 1.5em; }
@@ -47,2092 +44,1674 @@
 /* All icons below use the exact upstream SVG as the artwork source. */
 
 .yt-icon-41 {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/41.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/41.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/41.svg");
 }
 
 .yt-icon-179 {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/179.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/179.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/179.svg");
 }
 
 .yt-icon-326 {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/326.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/326.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/326.svg");
 }
 
 .yt-icon-327 {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/327.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/327.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/327.svg");
 }
 
 .yt-accelerator {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/accelerator.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/accelerator.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/accelerator.svg");
 }
 
 .yt-access-time {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/access_time.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/access_time.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/access_time.svg");
 }
 
 .yt-account-box-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_box-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_box-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_box-filled.svg");
 }
 
 .yt-account-box {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_box.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_box.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_box.svg");
 }
 
 .yt-account-circle-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_circle-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_circle-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_circle-filled.svg");
 }
 
 .yt-account-circle {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_circle.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_circle.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_circle.svg");
 }
 
 .yt-account-linked {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_linked.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_linked.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_linked.svg");
 }
 
 .yt-account-some-linked {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_some_linked.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_some_linked.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_some_linked.svg");
 }
 
 .yt-account-unlinked {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_unlinked.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_unlinked.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/account_unlinked.svg");
 }
 
 .yt-add-circle {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_circle.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_circle.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_circle.svg");
 }
 
 .yt-add-friend {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_friend.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_friend.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_friend.svg");
 }
 
 .yt-add-moderator {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_moderator.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_moderator.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_moderator.svg");
 }
 
 .yt-add-photo-alternate {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_photo_alternate.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_photo_alternate.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_photo_alternate.svg");
 }
 
 .yt-add-to-playlist {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_to_playlist.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_to_playlist.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_to_playlist.svg");
 }
 
 .yt-add-to-queue-tail {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_to_queue_tail.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_to_queue_tail.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_to_queue_tail.svg");
 }
 
 .yt-add-to-queue {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_to_queue.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_to_queue.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_to_queue.svg");
 }
 
 .yt-add-video-link {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_video_link.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_video_link.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add_video_link.svg");
 }
 
 .yt-add {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/add.svg");
 }
 
 .yt-album-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/album-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/album-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/album-filled.svg");
 }
 
 .yt-album {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/album.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/album.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/album.svg");
 }
 
 .yt-align-left {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/align_left.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/align_left.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/align_left.svg");
 }
 
 .yt-answer-neither-satisfied-nor-dissatisfied {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_neither_satisfied_nor_dissatisfied.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_neither_satisfied_nor_dissatisfied.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_neither_satisfied_nor_dissatisfied.svg");
 }
 
 .yt-answer-somewhat-dissatisfied {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_somewhat_dissatisfied.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_somewhat_dissatisfied.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_somewhat_dissatisfied.svg");
 }
 
 .yt-answer-somewhat-satisfied {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_somewhat_satisfied.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_somewhat_satisfied.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_somewhat_satisfied.svg");
 }
 
 .yt-answer-very-dissatisfied {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_very_dissatisfied.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_very_dissatisfied.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_very_dissatisfied.svg");
 }
 
 .yt-answer-very-satisfied {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_very_satisfied.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_very_satisfied.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/answer_very_satisfied.svg");
 }
 
 .yt-applause {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/applause.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/applause.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/applause.svg");
 }
 
 .yt-apps-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/apps-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/apps-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/apps-filled.svg");
 }
 
 .yt-apps {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/apps.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/apps.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/apps.svg");
 }
 
 .yt-arrow_back {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_back.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_back.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_back.svg");
 }
 
 .yt-arrow-chart-neutral {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_chart_neutral.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_chart_neutral.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_chart_neutral.svg");
 }
 
 .yt-arrow_drop_down {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_drop_down.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_drop_down.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_drop_down.svg");
 }
 
 .yt-arrow-drop-up {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_drop_up.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_drop_up.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_drop_up.svg");
 }
 
 .yt-arrow-flip {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_flip.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_flip.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_flip.svg");
 }
 
 .yt-arrow_forward {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_forward.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_forward.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow_forward.svg");
 }
 
 .yt-arrow-back {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow-back.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow-back.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow-back.svg");
 }
 
 .yt-arrow-drop-down {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow-drop-down.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow-drop-down.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow-drop-down.svg");
 }
 
 .yt-arrow-forward {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow-forward.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow-forward.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/arrow-forward.svg");
 }
 
 .yt-article {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/article.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/article.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/article.svg");
 }
 
 .yt-artist-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/artist-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/artist-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/artist-filled.svg");
 }
 
 .yt-artist {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/artist.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/artist.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/artist.svg");
 }
 
 .yt-audiotrack {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/audiotrack.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/audiotrack.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/audiotrack.svg");
 }
 
 .yt-auto-awesome-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/auto-awesome-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/auto-awesome-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/auto-awesome-filled.svg");
 }
 
 .yt-auto-awesome {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/auto-awesome.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/auto-awesome.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/auto-awesome.svg");
 }
 
 .yt-avatar-anonymous {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/avatar_anonymous.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/avatar_anonymous.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/avatar_anonymous.svg");
 }
 
 .yt-avatar-logged-out {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/avatar_logged_out.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/avatar_logged_out.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/avatar_logged_out.svg");
 }
 
 .yt-avatar-circle-blue {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/avatar-circle-blue.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/avatar-circle-blue.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/avatar-circle-blue.svg");
 }
 
 .yt-back {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/back.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/back.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/back.svg");
 }
 
 .yt-bar-chart-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bar_chart-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bar_chart-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bar_chart-filled.svg");
 }
 
 .yt-bar-chart {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bar_chart.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bar_chart.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bar_chart.svg");
 }
 
 .yt-block {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/block.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/block.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/block.svg");
 }
 
 .yt-bookmark-border {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bookmark_border.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bookmark_border.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bookmark_border.svg");
 }
 
 .yt-bookmark-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bookmark-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bookmark-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bookmark-filled.svg");
 }
 
 .yt-bookmark {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bookmark.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bookmark.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/bookmark.svg");
 }
 
 .yt-breaking-news-alt-1 {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/breaking_news_alt_1.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/breaking_news_alt_1.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/breaking_news_alt_1.svg");
 }
 
 .yt-breaking-news {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/breaking_news.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/breaking_news.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/breaking_news.svg");
 }
 
 .yt-brightness-three {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/brightness_three.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/brightness_three.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/brightness_three.svg");
 }
 
 .yt-build {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/build.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/build.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/build.svg");
 }
 
 .yt-cake {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/cake.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/cake.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/cake.svg");
 }
 
 .yt-calendar-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/calendar-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/calendar-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/calendar-filled.svg");
 }
 
 .yt-calendar {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/calendar.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/calendar.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/calendar.svg");
 }
 
 .yt-camera-alt {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/camera_alt.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/camera_alt.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/camera_alt.svg");
 }
 
 .yt-campaign {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/campaign.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/campaign.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/campaign.svg");
 }
 
 .yt-channel-notification-preference-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/channel_notification_preference_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/channel_notification_preference_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/channel_notification_preference_off.svg");
 }
 
 .yt-channel-notification-preference-on {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/channel_notification_preference_on.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/channel_notification_preference_on.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/channel_notification_preference_on.svg");
 }
 
 .yt-chat-bubble-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chat_bubble-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chat_bubble-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chat_bubble-filled.svg");
 }
 
 .yt-chat-bubble {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chat_bubble.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chat_bubble.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chat_bubble.svg");
 }
 
 .yt-chat-off-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chat_off-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chat_off-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chat_off-filled.svg");
 }
 
 .yt-chat-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chat_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chat_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chat_off.svg");
 }
 
 .yt-check-circle-thick-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check_circle_thick-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check_circle_thick-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check_circle_thick-filled.svg");
 }
 
 .yt-check-circle-thick {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check_circle_thick.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check_circle_thick.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check_circle_thick.svg");
 }
 
 .yt-check-circle {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check-circle.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check-circle.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check-circle.svg");
 }
 
 .yt-check-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check-filled.svg");
 }
 
 .yt-check {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/check.svg");
 }
 
 .yt-chevron-left {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chevron_left.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chevron_left.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chevron_left.svg");
 }
 
 .yt-chevron-right {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chevron_right.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chevron_right.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chevron_right.svg");
 }
 
 .yt-chromecast-animate-frame-1 {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast_animate_frame-1.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast_animate_frame-1.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast_animate_frame-1.svg");
 }
 
 .yt-chromecast-animate-frame-2 {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast_animate_frame-2.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast_animate_frame-2.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast_animate_frame-2.svg");
 }
 
 .yt-chromecast-animate-frame-3 {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast_animate_frame-3.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast_animate_frame-3.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast_animate_frame-3.svg");
 }
 
 .yt-chromecast-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast-filled.svg");
 }
 
 .yt-chromecast {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/chromecast.svg");
 }
 
 .yt-clarify {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/clarify.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/clarify.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/clarify.svg");
 }
 
 .yt-close {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/close.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/close.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/close.svg");
 }
 
 .yt-cloud-upload {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/cloud_upload.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/cloud_upload.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/cloud_upload.svg");
 }
 
 .yt-collapse {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/collapse.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/collapse.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/collapse.svg");
 }
 
 .yt-collections {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/collections.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/collections.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/collections.svg");
 }
 
 .yt-color-lens {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/color_lens.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/color_lens.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/color_lens.svg");
 }
 
 .yt-colored-gaming-logo {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/colored_gaming_logo.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/colored_gaming_logo.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/colored_gaming_logo.svg");
 }
 
 .yt-comment-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/comment-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/comment-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/comment-filled.svg");
 }
 
 .yt-comment {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/comment.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/comment.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/comment.svg");
 }
 
 .yt-consent-shield {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/consent_shield.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/consent_shield.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/consent_shield.svg");
 }
 
 .yt-contact-support {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/contact_support.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/contact_support.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/contact_support.svg");
 }
 
 .yt-content-cut-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/content_cut-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/content_cut-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/content_cut-filled.svg");
 }
 
 .yt-content-cut {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/content_cut.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/content_cut.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/content_cut.svg");
 }
 
 .yt-conversations {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/conversations.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/conversations.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/conversations.svg");
 }
 
 .yt-copy {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/copy.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/copy.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/copy.svg");
 }
 
 .yt-course-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/course-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/course-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/course-filled.svg");
 }
 
 .yt-course {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/course.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/course.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/course.svg");
 }
 
 .yt-creation-live {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_live.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_live.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_live.svg");
 }
 
 .yt-creation-post-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_post-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_post-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_post-filled.svg");
 }
 
 .yt-creation-post {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_post.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_post.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_post.svg");
 }
 
 .yt-creation-upload-red {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_upload_red.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_upload_red.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_upload_red.svg");
 }
 
 .yt-creation-upload {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_upload.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_upload.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creation_upload.svg");
 }
 
 .yt-creator-metadata-monetization-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_metadata_monetization_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_metadata_monetization_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_metadata_monetization_off.svg");
 }
 
 .yt-creator-metadata-monetization-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_metadata_monetization-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_metadata_monetization-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_metadata_monetization-filled.svg");
 }
 
 .yt-creator-metadata-monetization {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_metadata_monetization.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_metadata_monetization.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_metadata_monetization.svg");
 }
 
 .yt-creator-studio-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_studio-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_studio-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_studio-filled.svg");
 }
 
 .yt-creator-studio {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_studio.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_studio.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/creator_studio.svg");
 }
 
 .yt-credit-card-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/credit_card-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/credit_card-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/credit_card-filled.svg");
 }
 
 .yt-credit-card {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/credit_card.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/credit_card.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/credit_card.svg");
 }
 
 .yt-dark-theme-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dark_theme-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dark_theme-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dark_theme-filled.svg");
 }
 
 .yt-dark-theme {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dark_theme.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dark_theme.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dark_theme.svg");
 }
 
 .yt-delete-sweep {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/delete_sweep.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/delete_sweep.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/delete_sweep.svg");
 }
 
 .yt-delete-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/delete-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/delete-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/delete-filled.svg");
 }
 
 .yt-delete {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/delete.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/delete.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/delete.svg");
 }
 
 .yt-dislike-outline {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dislike_outline.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dislike_outline.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dislike_outline.svg");
 }
 
 .yt-dislike-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dislike-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dislike-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dislike-filled.svg");
 }
 
 .yt-dislike {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dislike.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dislike.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dislike.svg");
 }
 
 .yt-dismissal {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dismissal.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dismissal.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dismissal.svg");
 }
 
 .yt-dogfood {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dogfood.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dogfood.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/dogfood.svg");
 }
 
 .yt-done-all-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/done_all-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/done_all-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/done_all-filled.svg");
 }
 
 .yt-done-all {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/done_all.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/done_all.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/done_all.svg");
 }
 
 .yt-down-arrow-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/down_arrow-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/down_arrow-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/down_arrow-filled.svg");
 }
 
 .yt-down-arrow {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/down_arrow.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/down_arrow.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/down_arrow.svg");
 }
 
 .yt-drag-handle {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/drag_handle.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/drag_handle.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/drag_handle.svg");
 }
 
 .yt-edit {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/edit.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/edit.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/edit.svg");
 }
 
 .yt-email-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/email-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/email-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/email-filled.svg");
 }
 
 .yt-email {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/email.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/email.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/email.svg");
 }
 
 .yt-emoji-activities-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_activities-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_activities-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_activities-filled.svg");
 }
 
 .yt-emoji-activities {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_activities.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_activities.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_activities.svg");
 }
 
 .yt-emoji-custom {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_custom.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_custom.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_custom.svg");
 }
 
 .yt-emoji-flags {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_flags.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_flags.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_flags.svg");
 }
 
 .yt-emoji-food {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_food.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_food.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_food.svg");
 }
 
 .yt-emoji-nature {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_nature.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_nature.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_nature.svg");
 }
 
 .yt-emoji-objects {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_objects.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_objects.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_objects.svg");
 }
 
 .yt-emoji-people {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_people.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_people.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_people.svg");
 }
 
 .yt-emoji-recent {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_recent.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_recent.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_recent.svg");
 }
 
 .yt-emoji-sponsorships {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_sponsorships.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_sponsorships.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_sponsorships.svg");
 }
 
 .yt-emoji-symbols {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_symbols.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_symbols.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_symbols.svg");
 }
 
 .yt-emoji-travel {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_travel.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_travel.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji_travel.svg");
 }
 
 .yt-emoji {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/emoji.svg");
 }
 
 .yt-error-black {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/error_black.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/error_black.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/error_black.svg");
 }
 
 .yt-error-outline {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/error_outline.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/error_outline.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/error_outline.svg");
 }
 
 .yt-error-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/error-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/error-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/error-filled.svg");
 }
 
 .yt-error {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/error.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/error.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/error.svg");
 }
 
 .yt-event {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/event.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/event.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/event.svg");
 }
 
 .yt-exit-app {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/exit_app.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/exit_app.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/exit_app.svg");
 }
 
 .yt-exit-to-app {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/exit_to_app.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/exit_to_app.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/exit_to_app.svg");
 }
 
 .yt-expand-less {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/expand-less.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/expand-less.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/expand-less.svg");
 }
 
 .yt-expand-more {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/expand-more.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/expand-more.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/expand-more.svg");
 }
 
 .yt-expand {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/expand.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/expand.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/expand.svg");
 }
 
 .yt-explore-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/explore-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/explore-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/explore-filled.svg");
 }
 
 .yt-explore {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/explore.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/explore.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/explore.svg");
 }
 
 .yt-external-link {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/external_link.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/external_link.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/external_link.svg");
 }
 
 .yt-fact-check {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fact_check.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fact_check.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fact_check.svg");
 }
 
 .yt-fashion-logo-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fashion_logo-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fashion_logo-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fashion_logo-filled.svg");
 }
 
 .yt-fashion-logo {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fashion_logo.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fashion_logo.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fashion_logo.svg");
 }
 
 .yt-fast-rewind {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fast_rewind.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fast_rewind.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fast_rewind.svg");
 }
 
 .yt-feedback {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/feedback.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/feedback.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/feedback.svg");
 }
 
 .yt-fill-dollar-sign-heart-12 {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fill_dollar_sign_heart_12.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fill_dollar_sign_heart_12.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fill_dollar_sign_heart_12.svg");
 }
 
 .yt-filter-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/filter-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/filter-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/filter-filled.svg");
 }
 
 .yt-filter {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/filter.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/filter.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/filter.svg");
 }
 
 .yt-find-in-page {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/find_in_page.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/find_in_page.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/find_in_page.svg");
 }
 
 .yt-first-page-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/first_page-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/first_page-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/first_page-filled.svg");
 }
 
 .yt-first-page {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/first_page.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/first_page.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/first_page.svg");
 }
 
 .yt-flag-outline {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/flag_outline.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/flag_outline.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/flag_outline.svg");
 }
 
 .yt-flag-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/flag-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/flag-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/flag-filled.svg");
 }
 
 .yt-flag {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/flag.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/flag.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/flag.svg");
 }
 
 .yt-folder-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/folder-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/folder-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/folder-filled.svg");
 }
 
 .yt-folder {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/folder.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/folder.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/folder.svg");
 }
 
 .yt-forum-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/forum-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/forum-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/forum-filled.svg");
 }
 
 .yt-forum {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/forum.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/forum.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/forum.svg");
 }
 
 .yt-full-heart-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/full_heart-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/full_heart-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/full_heart-filled.svg");
 }
 
 .yt-full-heart {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/full_heart.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/full_heart.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/full_heart.svg");
 }
 
 .yt-fullscreen-exit {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fullscreen_exit.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fullscreen_exit.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fullscreen_exit.svg");
 }
 
 .yt-fullscreen {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fullscreen.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fullscreen.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/fullscreen.svg");
 }
 
 .yt-g-translate {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/g_translate.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/g_translate.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/g_translate.svg");
 }
 
 .yt-gaming-logo {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/gaming_logo.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/gaming_logo.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/gaming_logo.svg");
 }
 
 .yt-gif {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/gif.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/gif.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/gif.svg");
 }
 
 .yt-google-logo {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/google_logo.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/google_logo.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/google_logo.svg");
 }
 
 .yt-google-play-games {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/google_play_games.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/google_play_games.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/google_play_games.svg");
 }
 
 .yt-google {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/google.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/google.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/google.svg");
 }
 
 .yt-groups {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/groups.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/groups.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/groups.svg");
 }
 
 .yt-guide-close {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/guide_close.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/guide_close.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/guide_close.svg");
 }
 
 .yt-happy {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/happy.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/happy.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/happy.svg");
 }
 
 .yt-help-outline {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/help_outline.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/help_outline.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/help_outline.svg");
 }
 
 .yt-help {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/help.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/help.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/help.svg");
 }
 
 .yt-highlight-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/highlight_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/highlight_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/highlight_off.svg");
 }
 
 .yt-hourglass {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/hourglass.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/hourglass.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/hourglass.svg");
 }
 
 .yt-image {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/image.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/image.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/image.svg");
 }
 
 .yt-info-circle {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/info_circle.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/info_circle.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/info_circle.svg");
 }
 
 .yt-info_outline {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/info_outline.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/info_outline.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/info_outline.svg");
 }
 
 .yt-info-outline {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/info-outline.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/info-outline.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/info-outline.svg");
 }
 
 .yt-info {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/info.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/info.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/info.svg");
 }
 
 .yt-insert-chart-outlined {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/insert_chart_outlined.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/insert_chart_outlined.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/insert_chart_outlined.svg");
 }
 
 .yt-insert-chart {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/insert_chart.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/insert_chart.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/insert_chart.svg");
 }
 
 .yt-insert-photo {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/insert_photo.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/insert_photo.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/insert_photo.svg");
 }
 
 .yt-insights {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/insights.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/insights.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/insights.svg");
 }
 
 .yt-invite-only-mode-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/invite_only_mode_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/invite_only_mode_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/invite_only_mode_off.svg");
 }
 
 .yt-invite-only-mode {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/invite_only_mode.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/invite_only_mode.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/invite_only_mode.svg");
 }
 
 .yt-keep-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/keep_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/keep_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/keep_off.svg");
 }
 
 .yt-keep {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/keep.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/keep.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/keep.svg");
 }
 
 .yt-keyboard {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/keyboard.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/keyboard.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/keyboard.svg");
 }
 
 .yt-language {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/language.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/language.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/language.svg");
 }
 
 .yt-last-page {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/last_page.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/last_page.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/last_page.svg");
 }
 
 .yt-launch {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/launch.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/launch.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/launch.svg");
 }
 
 .yt-library-add {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/library_add.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/library_add.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/library_add.svg");
 }
 
 .yt-library-music {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/library_music.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/library_music.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/library_music.svg");
 }
 
 .yt-library-remove {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/library_remove.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/library_remove.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/library_remove.svg");
 }
 
 .yt-like-outline {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/like_outline.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/like_outline.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/like_outline.svg");
 }
 
 .yt-like {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/like.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/like.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/like.svg");
 }
 
 .yt-likes-playlist {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/likes_playlist.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/likes_playlist.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/likes_playlist.svg");
 }
 
 .yt-link {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/link.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/link.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/link.svg");
 }
 
 .yt-live-unlisted {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/live_unlisted.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/live_unlisted.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/live_unlisted.svg");
 }
 
 .yt-live {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/live.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/live.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/live.svg");
 }
 
 .yt-local-mall {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/local_mall.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/local_mall.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/local_mall.svg");
 }
 
 .yt-local-offer {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/local_offer.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/local_offer.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/local_offer.svg");
 }
 
 .yt-location-pin {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/location_pin.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/location_pin.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/location_pin.svg");
 }
 
 .yt-lock-clock {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/lock_clock.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/lock_clock.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/lock_clock.svg");
 }
 
 .yt-lock-open {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/lock_open.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/lock_open.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/lock_open.svg");
 }
 
 .yt-lock {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/lock.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/lock.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/lock.svg");
 }
 
 .yt-loop-one {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/loop_one.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/loop_one.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/loop_one.svg");
 }
 
 .yt-loop {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/loop.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/loop.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/loop.svg");
 }
 
 .yt-manual-record {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/manual-record.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/manual-record.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/manual-record.svg");
 }
 
 .yt-maximize {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/maximize.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/maximize.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/maximize.svg");
 }
 
 .yt-meh {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/meh.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/meh.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/meh.svg");
 }
 
 .yt-members-only-mode-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/members_only_mode_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/members_only_mode_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/members_only_mode_off.svg");
 }
 
 .yt-members-only-mode {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/members_only_mode.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/members_only_mode.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/members_only_mode.svg");
 }
 
 .yt-membership-post-purchase {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/membership_post_purchase.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/membership_post_purchase.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/membership_post_purchase.svg");
 }
 
 .yt-membership-pre-purchase {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/membership_pre_purchase.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/membership_pre_purchase.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/membership_pre_purchase.svg");
 }
 
 .yt-memberships {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/memberships.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/memberships.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/memberships.svg");
 }
 
 .yt-menu {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/menu.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/menu.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/menu.svg");
 }
 
 .yt-message {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/message.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/message.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/message.svg");
 }
 
 .yt-microphone-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/microphone_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/microphone_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/microphone_off.svg");
 }
 
 .yt-microphone-on {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/microphone_on.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/microphone_on.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/microphone_on.svg");
 }
 
 .yt-minimize {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/minimize.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/minimize.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/minimize.svg");
 }
 
 .yt-mix {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/mix.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/mix.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/mix.svg");
 }
 
 .yt-mobile-portrait {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/mobile_portrait.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/mobile_portrait.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/mobile_portrait.svg");
 }
 
 .yt-monetization-on {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/monetization_on.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/monetization_on.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/monetization_on.svg");
 }
 
 .yt-money-fill-jpy {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill_jpy.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill_jpy.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill_jpy.svg");
 }
 
 .yt-money-fill-more-arrow {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill_more_arrow.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill_more_arrow.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill_more_arrow.svg");
 }
 
 .yt-money-fill-shopping-bag {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill_shopping_bag.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill_shopping_bag.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill_shopping_bag.svg");
 }
 
 .yt-money-fill-store {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill_store.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill_store.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill_store.svg");
 }
 
 .yt-money-fill {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_fill.svg");
 }
 
 .yt-money-heart {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_heart.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_heart.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/money_heart.svg");
 }
 
 .yt-more-chevron {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/more_chevron.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/more_chevron.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/more_chevron.svg");
 }
 
 .yt-more-horiz {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/more_horiz.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/more_horiz.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/more_horiz.svg");
 }
 
 .yt-more-vert {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/more_vert.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/more_vert.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/more_vert.svg");
 }
 
 .yt-more {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/more.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/more.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/more.svg");
 }
 
 .yt-movies {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/movies.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/movies.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/movies.svg");
 }
 
 .yt-music-explicit-badge {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_explicit_badge.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_explicit_badge.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_explicit_badge.svg");
 }
 
 .yt-music-miniplayer {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_miniplayer.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_miniplayer.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_miniplayer.svg");
 }
 
 .yt-music-new-release {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_new_release.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_new_release.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_new_release.svg");
 }
 
 .yt-music-note {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_note.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_note.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_note.svg");
 }
 
 .yt-music-player-page {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_player_page.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_player_page.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_player_page.svg");
 }
 
 .yt-music-repeat-all {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_repeat_all.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_repeat_all.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_repeat_all.svg");
 }
 
 .yt-music-repeat-one {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_repeat_one.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_repeat_one.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_repeat_one.svg");
 }
 
 .yt-music-shuffle {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_shuffle.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_shuffle.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_shuffle.svg");
 }
 
 .yt-music-video {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_video.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_video.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music_video.svg");
 }
 
 .yt-music {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/music.svg");
 }
 
 .yt-my-channel {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/my_channel.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/my_channel.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/my_channel.svg");
 }
 
 .yt-my-videos {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/my_videos.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/my_videos.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/my_videos.svg");
 }
 
 .yt-new-release {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/new_release.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/new_release.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/new_release.svg");
 }
 
 .yt-not-interested {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/not_interested.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/not_interested.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/not_interested.svg");
 }
 
 .yt-notifications-active {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications_active.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications_active.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications_active.svg");
 }
 
 .yt-notifications-done-checkmark {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications_done_checkmark.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications_done_checkmark.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications_done_checkmark.svg");
 }
 
 .yt-notifications-none {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications_none.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications_none.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications_none.svg");
 }
 
 .yt-notifications-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications_off.svg");
 }
 
 .yt-notifications {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/notifications.svg");
 }
 
 .yt-official-artist-badge {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/official_artist_badge.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/official_artist_badge.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/official_artist_badge.svg");
 }
 
 .yt-offline-cloud {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_cloud.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_cloud.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_cloud.svg");
 }
 
 .yt-offline-downloading-eighty {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_eighty.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_eighty.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_eighty.svg");
 }
 
 .yt-offline-downloading-forty {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_forty.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_forty.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_forty.svg");
 }
 
 .yt-offline-downloading-sixty {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_sixty.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_sixty.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_sixty.svg");
 }
 
 .yt-offline-downloading-spinner {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_spinner.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_spinner.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_spinner.svg");
 }
 
 .yt-offline-downloading-twenty {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_twenty.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_twenty.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_twenty.svg");
 }
 
 .yt-offline-downloading-zero {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_zero.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_zero.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_downloading_zero.svg");
 }
 
 .yt-offline-pin {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_pin.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_pin.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/offline_pin.svg");
 }
 
 .yt-open-in-new {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/open_in_new.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/open_in_new.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/open_in_new.svg");
 }
 
 .yt-open-with {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/open_with.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/open_with.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/open_with.svg");
 }
 
 .yt-paid {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/paid.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/paid.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/paid.svg");
 }
 
 .yt-people {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/people.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/people.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/people.svg");
 }
 
 .yt-person-add {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/person_add.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/person_add.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/person_add.svg");
 }
 
 .yt-person {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/person.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/person.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/person.svg");
 }
 
 .yt-phone-download {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/phone_download.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/phone_download.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/phone_download.svg");
 }
 
 .yt-phone {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/phone.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/phone.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/phone.svg");
 }
 
 .yt-play-all {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/play_all.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/play_all.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/play_all.svg");
 }
 
 .yt-play-arrow {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/play_arrow.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/play_arrow.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/play_arrow.svg");
 }
 
 .yt-play-disabled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/play_disabled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/play_disabled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/play_disabled.svg");
 }
 
 .yt-play-next {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/play_next.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/play_next.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/play_next.svg");
 }
 
 .yt-playlist-add-check {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/playlist_add_check.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/playlist_add_check.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/playlist_add_check.svg");
 }
 
 .yt-playlist-add {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/playlist_add.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/playlist_add.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/playlist_add.svg");
 }
 
 .yt-playlists {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/playlists.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/playlists.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/playlists.svg");
 }
 
 .yt-policy {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/policy.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/policy.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/policy.svg");
 }
 
 .yt-poll {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/poll.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/poll.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/poll.svg");
 }
 
 .yt-premium {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/premium.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/premium.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/premium.svg");
 }
 
 .yt-privacy-info {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/privacy_info.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/privacy_info.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/privacy_info.svg");
 }
 
 .yt-privacy-private {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/privacy_private.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/privacy_private.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/privacy_private.svg");
 }
 
 .yt-privacy-public {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/privacy_public.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/privacy_public.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/privacy_public.svg");
 }
 
 .yt-privacy-unlisted {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/privacy_unlisted.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/privacy_unlisted.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/privacy_unlisted.svg");
 }
 
 .yt-prompted-sign-in {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/prompted_sign_in.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/prompted_sign_in.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/prompted_sign_in.svg");
 }
 
 .yt-purchase-sponsorship {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/purchase_sponsorship.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/purchase_sponsorship.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/purchase_sponsorship.svg");
 }
 
 .yt-purchase-super-chat {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/purchase_super_chat.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/purchase_super_chat.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/purchase_super_chat.svg");
 }
 
 .yt-purchase-super-sticker {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/purchase_super_sticker.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/purchase_super_sticker.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/purchase_super_sticker.svg");
 }
 
 .yt-purchases {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/purchases.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/purchases.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/purchases.svg");
 }
 
 .yt-question-answer {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/question_answer.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/question_answer.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/question_answer.svg");
 }
 
 .yt-radio-button-unchecked {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/radio-button-unchecked.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/radio-button-unchecked.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/radio-button-unchecked.svg");
 }
 
 .yt-refresh {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/refresh.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/refresh.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/refresh.svg");
 }
 
 .yt-remove_circle_outline {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove_circle_outline.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove_circle_outline.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove_circle_outline.svg");
 }
 
 .yt-remove-circle {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove_circle.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove_circle.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove_circle.svg");
 }
 
 .yt-remove-done {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove_done.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove_done.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove_done.svg");
 }
 
 .yt-remove-moderator {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove_moderator.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove_moderator.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove_moderator.svg");
 }
 
 .yt-remove-circle-outline {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove-circle-outline.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove-circle-outline.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove-circle-outline.svg");
 }
 
 .yt-remove {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/remove.svg");
 }
 
 .yt-replay {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/replay.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/replay.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/replay.svg");
 }
 
 .yt-report-problem {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/report_problem.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/report_problem.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/report_problem.svg");
 }
 
 .yt-report {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/report.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/report.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/report.svg");
 }
 
 .yt-sad {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sad.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sad.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sad.svg");
 }
 
 .yt-scatterplot {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/scatterplot.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/scatterplot.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/scatterplot.svg");
 }
 
 .yt-schedule {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/schedule.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/schedule.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/schedule.svg");
 }
 
 .yt-search {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/search.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/search.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/search.svg");
 }
 
 .yt-send {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/send.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/send.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/send.svg");
 }
 
 .yt-service-toolbox {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/service_toolbox.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/service_toolbox.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/service_toolbox.svg");
 }
 
 .yt-settings-applications {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/settings_applications.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/settings_applications.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/settings_applications.svg");
 }
 
 .yt-settings-material {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/settings_material.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/settings_material.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/settings_material.svg");
 }
 
 .yt-settings {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/settings.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/settings.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/settings.svg");
 }
 
 .yt-share-arrow {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/share_arrow.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/share_arrow.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/share_arrow.svg");
 }
 
 .yt-share {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/share.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/share.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/share.svg");
 }
 
 .yt-shield-with-avatar {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/shield_with_avatar.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/shield_with_avatar.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/shield_with_avatar.svg");
 }
 
 .yt-shield {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/shield.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/shield.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/shield.svg");
 }
 
 .yt-shuffle {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/shuffle.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/shuffle.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/shuffle.svg");
 }
 
 .yt-skip-next {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/skip_next.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/skip_next.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/skip_next.svg");
 }
 
 .yt-skip-previous {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/skip_previous.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/skip_previous.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/skip_previous.svg");
 }
 
 .yt-slow-mode-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/slow_mode_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/slow_mode_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/slow_mode_off.svg");
 }
 
 .yt-slow-mode {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/slow_mode.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/slow_mode.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/slow_mode.svg");
 }
 
 .yt-sms {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sms.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sms.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sms.svg");
 }
 
 .yt-sort {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sort.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sort.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sort.svg");
 }
 
 .yt-sponsorship-star {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sponsorship_star.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sponsorship_star.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sponsorship_star.svg");
 }
 
 .yt-sponsorships-no-bg {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sponsorships_no_bg.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sponsorships_no_bg.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sponsorships_no_bg.svg");
 }
 
 .yt-sponsorships {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sponsorships.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sponsorships.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sponsorships.svg");
 }
 
 .yt-star-border {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/star_border.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/star_border.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/star_border.svg");
 }
 
 .yt-star-half {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/star_half.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/star_half.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/star_half.svg");
 }
 
 .yt-star {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/star.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/star.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/star.svg");
 }
 
 .yt-stars {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/stars.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/stars.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/stars.svg");
 }
 
 .yt-sticker-emoticon {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sticker_emoticon.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sticker_emoticon.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/sticker_emoticon.svg");
 }
 
 .yt-subdirectory-arrow-right {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subdirectory_arrow_right.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subdirectory_arrow_right.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subdirectory_arrow_right.svg");
 }
 
 .yt-subscribe {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subscribe.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subscribe.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subscribe.svg");
 }
 
 .yt-subscription-manager {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subscription_manager.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subscription_manager.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subscription_manager.svg");
 }
 
 .yt-subscriptions {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subscriptions.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subscriptions.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subscriptions.svg");
 }
 
 .yt-subtitles {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subtitles.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subtitles.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/subtitles.svg");
 }
 
 .yt-super-chat-for-good {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/super_chat_for_good.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/super_chat_for_good.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/super_chat_for_good.svg");
 }
 
 .yt-supervisor-account {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/supervisor_account.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/supervisor_account.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/supervisor_account.svg");
 }
 
 .yt-switch-accounts {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/switch_accounts.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/switch_accounts.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/switch_accounts.svg");
 }
 
 .yt-tab-account {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_account.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_account.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_account.svg");
 }
 
 .yt-tab-explore {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_explore.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_explore.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_explore.svg");
 }
 
 .yt-tab-home {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_home.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_home.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_home.svg");
 }
 
 .yt-tab-subscriptions {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_subscriptions.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_subscriptions.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_subscriptions.svg");
 }
 
 .yt-tab-trending {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_trending.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_trending.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_trending.svg");
 }
 
 .yt-trailer {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/trailer.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/trailer.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/trailer.svg");
 }
 
 .yt-translate {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/translate.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/translate.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/translate.svg");
 }
 
 .yt-trending-up {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/trending_up.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/trending_up.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/trending_up.svg");
 }
 
 .yt-trending {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/trending.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/trending.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/trending.svg");
 }
 
 .yt-tune {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tune.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tune.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tune.svg");
 }
 
 .yt-tv {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tv.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tv.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tv.svg");
 }
 
 .yt-unlimited {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/unlimited.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/unlimited.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/unlimited.svg");
 }
 
 .yt-unplugged-logo {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/unplugged_logo.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/unplugged_logo.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/unplugged_logo.svg");
 }
 
 .yt-up-arrow {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/up_arrow.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/up_arrow.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/up_arrow.svg");
 }
 
 .yt-upload {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/upload.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/upload.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/upload.svg");
 }
 
 .yt-uploads {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/uploads.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/uploads.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/uploads.svg");
 }
 
 .yt-verified-user {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/verified_user.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/verified_user.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/verified_user.svg");
 }
 
 .yt-vertical-align-bottom {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/vertical_align_bottom.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/vertical_align_bottom.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/vertical_align_bottom.svg");
 }
 
 .yt-vertical-align-top {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/vertical_align_top.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/vertical_align_top.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/vertical_align_top.svg");
 }
 
 .yt-very-happy {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/very_happy.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/very_happy.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/very_happy.svg");
 }
 
 .yt-very-sad {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/very_sad.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/very_sad.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/very_sad.svg");
 }
 
 .yt-video-call {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_call.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_call.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_call.svg");
 }
 
 .yt-video-camera-disabled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_camera_disabled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_camera_disabled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_camera_disabled.svg");
 }
 
 .yt-video-camera {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_camera.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_camera.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_camera.svg");
 }
 
 .yt-video-library-white {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_library_white.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_library_white.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_library_white.svg");
 }
 
 .yt-video-youtube {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_youtube.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_youtube.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/video_youtube.svg");
 }
 
 .yt-videogame-asset {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/videogame_asset.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/videogame_asset.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/videogame_asset.svg");
 }
 
 .yt-view-list {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/view_list.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/view_list.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/view_list.svg");
 }
 
 .yt-view-module {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/view_module.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/view_module.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/view_module.svg");
 }
 
 .yt-visibility-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/visibility_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/visibility_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/visibility_off.svg");
 }
 
 .yt-visibility {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/visibility.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/visibility.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/visibility.svg");
 }
 
 .yt-volume-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/volume_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/volume_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/volume_off.svg");
 }
 
 .yt-volume-up {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/volume_up.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/volume_up.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/volume_up.svg");
 }
 
 .yt-vpn-key {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/vpn_key.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/vpn_key.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/vpn_key.svg");
 }
 
 .yt-wallpaper {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wallpaper.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wallpaper.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wallpaper.svg");
 }
 
 .yt-warning {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/warning.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/warning.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/warning.svg");
 }
 
 .yt-watch-history {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/watch_history.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/watch_history.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/watch_history.svg");
 }
 
 .yt-watch-later {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/watch_later.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/watch_later.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/watch_later.svg");
 }
 
 .yt-watch-related-mix {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/watch_related_mix.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/watch_related_mix.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/watch_related_mix.svg");
 }
 
 .yt-what-to-watch {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/what_to_watch.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/what_to_watch.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/what_to_watch.svg");
 }
 
 .yt-wifi-status-bar-four {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wifi_status_bar_four.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wifi_status_bar_four.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wifi_status_bar_four.svg");
 }
 
 .yt-wifi-status-bar-one {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wifi_status_bar_one.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wifi_status_bar_one.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wifi_status_bar_one.svg");
 }
 
 .yt-wifi-status-bar-three {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wifi_status_bar_three.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wifi_status_bar_three.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wifi_status_bar_three.svg");
 }
 
 .yt-wifi-status-bar-zero {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wifi_status_bar_zero.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wifi_status_bar_zero.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/wifi_status_bar_zero.svg");
 }
 
 .yt-work-off {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/work_off.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/work_off.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/work_off.svg");
 }
 
 .yt-youtube-ad {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_ad.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_ad.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_ad.svg");
 }
 
 .yt-youtube-kids-round {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_kids_round.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_kids_round.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_kids_round.svg");
 }
 
 .yt-youtube-logo {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_logo.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_logo.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_logo.svg");
 }
 
 .yt-youtube-music-logo-short {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_music_logo_short.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_music_logo_short.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_music_logo_short.svg");
 }
 
 .yt-youtube-music {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_music.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_music.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_music.svg");
 }
 
 .yt-youtube-premiere-logo-short {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_premiere_logo_short.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_premiere_logo_short.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_premiere_logo_short.svg");
 }
 
 .yt-youtube-red-logo-short {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_red_logo_short.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_red_logo_short.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_red_logo_short.svg");
 }
 
 .yt-youtube-red-logo {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_red_logo.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_red_logo.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_red_logo.svg");
 }
 
 .yt-youtube-round {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_round.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_round.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/youtube_round.svg");
 }
 
 .yt-zoom-in-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_in-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_in-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_in-filled.svg");
 }
 
 .yt-zoom-in {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_in.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_in.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_in.svg");
 }
 
 .yt-zoom-out-filled {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_out-filled.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_out-filled.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_out-filled.svg");
 }
 
 .yt-zoom-out {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_out.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_out.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_out.svg");
 }
 
 /* Compatibility aliases */
 
 .yt-home-outline {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_home.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_home.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_home.svg");
 }
 
 .yt-home {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_home.svg");
-  mask-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_home.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_home.svg");
 }
 .yt-subscriptions-outline {
-  -webkit-mask-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23000%22%20d%3D%22M4%206h16v2H4zm16%204H4c-1.1%200-2%20.9-2%202v8c0%201.1.9%202%202%202h16c1.1%200%202-.9%202-2v-8c0-1.1-.9-2-2-2zm0%2010H4v-8h16v8zm-10-7.27v6.53L16%2016z%22%2F%3E%3C%2Fsvg%3E");
-  mask-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23000%22%20d%3D%22M4%206h16v2H4zm16%204H4c-1.1%200-2%20.9-2%202v8c0%201.1.9%202%202%202h16c1.1%200%202-.9%202-2v-8c0-1.1-.9-2-2-2zm0%2010H4v-8h16v8zm-10-7.27v6.53L16%2016z%22%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23000%22%20d%3D%22M4%206h16v2H4zm16%204H4c-1.1%200-2%20.9-2%202v8c0%201.1.9%202%202%202h16c1.1%200%202-.9%202-2v-8c0-1.1-.9-2-2-2zm0%2010H4v-8h16v8zm-10-7.27v6.53L16%2016z%22%2F%3E%3C%2Fsvg%3E");
 }
