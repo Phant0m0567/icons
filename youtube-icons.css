@@ -1,19 +1,3 @@
-/*
- * YouTube Icons — upstream SVG pack
- * Source: https://github.com/shiypc/yt-icons
- *
- * Usage:
- *   <i class="yt-icon yt-tab-home"></i>
- *
- * Defaults:
- *   • 1em × 1em
- *   • centered
- *   • contain-sized
- *   • inherits currentColor
- *
- * The icon artwork is loaded directly from the upstream SVG files.
- */
-
 .yt-icon {
   --yt-icon-size: 1em;
   display: inline-block;
@@ -38,10 +22,7 @@
 .yt-icon-xl  { --yt-icon-size: 2em; }
 .yt-icon-2xl { --yt-icon-size: 2.5em; }
 
-/* Use when the icon is intentionally packed tightly against another element. */
 .yt-icon-tight { margin-inline: 0; }
-
-/* All icons below use the exact upstream SVG as the artwork source. */
 
 .yt-icon-41 {
   background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/41.svg");
@@ -1702,8 +1683,6 @@
 .yt-zoom-out {
   background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/zoom_out.svg");
 }
-
-/* Compatibility aliases */
 
 .yt-home-outline {
   background-image: url("https://cdn.jsdelivr.net/gh/shiypc/yt-icons@main/yt-icons/tab_home.svg");
